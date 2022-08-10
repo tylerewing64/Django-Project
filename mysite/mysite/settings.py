@@ -50,6 +50,12 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'mysite.urls'
 
+
+#Points django to the static file folder which contains css files for templates.
+STATICFILES_DIRS = (
+    os.path.join(os.path.dirname(__file__), 'static').replace('\\','/'),
+)
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
