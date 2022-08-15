@@ -24,8 +24,13 @@
 }
 
 .container1{
-    position:absolute; 
-    margin:100px;
+    position:relative; 
+    top:136px;
+    margin-left:200px;
+    margin-right:200px;
+    border-radius: 10px;
+    border-color: #212121;
+  
     
 }
 
@@ -102,4 +107,30 @@ h1 {
     letter-spacing: 2px;
     text-transform: uppercase;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifS;
+}
+
+.item{
+
+width:151px;
+margin: 
+
+
+
+}
+
+.item h1{
+    padding:3px;
+    font-size:15px;
+    color:var(--dark) ;
+}
+.item p{
+    font-size: 12px;
+}
+
+.item img{
+width:151px;
+}
+
+.item p:hover {
+    color: var(--primary);
 }
