@@ -23,6 +23,12 @@
     display:none;
 }
 
+.container1{
+    position:absolute; 
+    margin:100px;
+    
+}
+
 nav{ 
     position: fixed;
     top:0;
@@ -61,6 +67,8 @@ nav{
     
 
 }
+
+
 
 .hamburger:hover span:nth-child(2) {
     transform: translateX(10px);
